@@ -1,0 +1,417 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+  
+}
+
+.container {
+    padding: 0 30px;
+    max-width: 1200px;
+    /* max-width: 900px; */
+    /* if the width is 900px or above, it will take 900px; */
+
+    /* width: 900px; */
+    /* on all screen sizes, it will always take 900px */
+    margin: 0 auto;
+}
+
+img {
+max-width: 100%;
+}
+.header{
+    display:flex;
+    /* flex-wrap: wrap; */
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.logo{
+    font-family: Graphik;
+    font-style:normal;
+    font-size:32px;
+    color:#F43757;
+    font-weight:900;
+    padding: 3px;
+}
+
+
+.list{
+   display:flex;
+   list-style-type: none;
+}
+
+
+.home, 
+.about,
+.music,
+.concert,
+.contact{
+    font-size: 18px;
+    margin: 6px 10px;
+}
+
+
+
+.active{
+    color:#F43757;
+  
+}
+
+.hero-text {
+    padding-top: 250px;
+}
+
+
+.laugh{
+    height: 90vh;
+    background-size: cover;
+    background-image: url('../img/laughinglady.svg');
+    color: white; 
+    font-family: Graphik;
+    
+}
+
+
+.laugh__pic{
+    width:100%;
+}
+
+.laugh__title{
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size:70px;
+}
+
+
+.laugh__paragraph{
+    font-size: 26px;
+    font-style: normal;
+}
+/* 
+.laugh__btn{
+    background-color: #F43757;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    width:206px;
+    height:50px;
+    font-size: 18px;
+} */
+
+.laugh__paragraph, .laugh__title, .laugh__btn{
+    padding: 9px 0;
+}
+
+
+.title{
+    height: 10vh;
+    font-family: Graphik;
+    font-size: 28px;
+    text-align: center;
+    padding: 70px 0;
+    font-weight: 500px;
+}
+
+
+/* .abo{
+    border-bottom: 2px solid black;
+} */
+
+
+.aboutme{
+    padding-bottom: 60px;
+   justify-content: center; 
+   background-color: #E5E5E5; 
+}
+
+.btn{
+    
+        background-color: #F43757;
+        color: white;
+        border-radius: 30px;
+        border: 0px;
+        width:206px;
+        height:50px;
+        font-size: 18px;
+        margin: 30px 0;
+}
+
+
+
+.about__pic{
+    
+    /* padding: 0 0px; */
+    width: 50%;
+}
+
+
+.aboutme__guy{
+  height: 47vh;
+}
+
+
+.aboutme__paragraph{
+     width:50%;
+    /* display: block; */
+    font-size: 18px;
+    font-family: Graphik;
+    padding-bottom: 6px; 
+}
+
+.aboutme__card{
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.double{
+    display: block;
+    position: absolute;
+}
+
+
+.about__frame{
+    width: 18em;
+    position:absolute;
+    left: 7%;
+}
+
+
+.latest__trio{
+   display: flex;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin:0 auto;
+    padding-bottom: 50px;
+}
+.latest{
+    background-color: white;
+
+}
+
+.underline{
+    border-bottom: 2px solid black;
+}
+
+
+.people, .storm, .beginning{
+    font-family: Graphik;
+    font-style:normal;
+    font-weight:500;
+    font-size: 18px;
+}
+
+.people__text, .storm__text, .beginning__text{
+    font-family: Graphik;
+    font-style:normal;
+    font-size: 18px;
+}
+.concerts{
+    background-color: #E5E5E5;
+   
+    
+}
+
+.people__text, .storm__text, .beginning__text{
+    font-family: Graphik;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.concerts__text--contact{
+    color:#F43757;
+}
+.concerts__trio{
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+
+
+.concerts__text{
+    text-align: center;
+}
+
+.concerts__text{
+    padding-bottom: 20px;
+    font-family: Graphik;
+    font-size: 18px;
+}
+
+
+.concerts__text a{
+    color: #F43757;
+    text-decoration: none ;
+}
+
+
+.latest__pic, .storm__pic, .beginning__pic{
+    padding-right: 10px;
+}
+
+
+.concerts__trio--one, .concerts__trio--two, .concerts__trio--three{
+    padding-right: 10px;
+}
+
+
+.part__text, .wizzy__text, .jersey__text{
+    font-family: Graphik;
+}
+
+
+.event{
+    background-color: red;
+    padding: 80px 0;
+}
+
+.event__duo{
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+ }
+.event__paragraph{
+    font-family:Graphik;
+    font-size: 18px;
+}
+
+
+.event__text{
+    margin-left: 5rem;
+    width: 40vw;
+}
+
+
+.event__title{
+    height: 10vh;
+    font-family: Graphik;
+    font-size: 28px;
+    /* text-align: center; */
+    padding: 70px 0;
+    font-weight: 500;
+}
+
+
+.playicon{
+    position:absolute;
+    left: 33%;
+    margin-top: 209px;
+}
+.concert4{
+    padding:0 50px;
+}
+
+
+.navyblue__container{
+    background-color: #161A22;
+    color:white;
+  
+}
+
+.navyblue__text1{
+    width: 14em;
+    text-align: center;
+}
+
+
+.navyblue__container--wrap img{
+   margin: 0 auto;
+    
+}
+
+
+.navyblue__container--wrap{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    
+}
+
+.navyblue__circle1, .navyblue__circle2, .navyblue__circle3{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.puff{
+    text-align: center;
+    padding: 12px;
+}
+.via{
+    text-align: center;
+   
+}
+.navyblue__title{
+    height: 10vh;
+    font-family: Graphik;
+    font-size: 28px;
+    text-align: center;
+    padding: 70px 0;
+    font-weight: 500;
+}
+
+.navyblue__container--underline{
+    border-bottom: 2px solid white;
+}
+
+
+.get{
+    background-color: white;
+}
+.form1{
+    display: flex;
+    /* background-color:; */
+    /* padding:22px; */
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+
+
+.name, .email{
+    width: 400px;
+    height: 50px;
+}
+
+.form2{
+    display: flex;
+    justify-content: center;
+    padding:22px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.message{
+    width: 830px;
+    height: 50px;
+    margin-right:70px;
+    
+}
+footer{
+    background-color: #F4F4F2;
+    height: 3em;
+}
+.footer__trio{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+input{
+    background-color:red;
+    border: 0;
+}
+
+.get button{
+    margin-left:120px;
+    padding-bottom: 0px;
+}
