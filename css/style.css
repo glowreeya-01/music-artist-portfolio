@@ -270,8 +270,8 @@ max-width: 100%;
 
 
 .event{
-    background-color: red;
-    padding: 80px 0;
+    background-color: white;
+    /* padding: 80px 0; */
 }
 
 .event__duo{
@@ -302,13 +302,18 @@ max-width: 100%;
 
 
 .playicon{
+    margin: 60px 0;
+}
+/* 
+.playicon{
     position:absolute;
-    left: 33%;
+    left: 30%;
     margin-top: 209px;
 }
+
 .concert4{
     padding:0 50px;
-}
+} */
 
 
 .navyblue__container{
@@ -370,31 +375,32 @@ max-width: 100%;
     display: flex;
     /* background-color:; */
     /* padding:22px; */
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     justify-content: space-between;
-
-
 }
 
+.get label{
+    display: block;
+}
 
 .name, .email{
-    width: 400px;
+    width: 350px;
     height: 50px;
 }
 
 .form2{
     display: flex;
     justify-content: center;
-    padding:22px;
+    /* padding:22px; */
     max-width: 800px;
     margin: 0 auto;
 }
 
 .message{
-    width: 830px;
+    width: 800px;
     height: 50px;
-    margin-right:70px;
+    
     
 }
 footer{
@@ -407,7 +413,7 @@ footer{
    justify-content: space-between;
 }
 input{
-    background-color:red;
+    background-color:#F4F4F2;
     border: 0;
 }
 
@@ -415,3 +421,7 @@ input{
     margin-left:120px;
     padding-bottom: 0px;
 }
+
+
+/* For Mobile Phones */
+/* @media  */
